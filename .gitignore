@@ -5,8 +5,7 @@ __pycache__/
 *$py.class
 *.so
 .Python
-# db.sqlite3
-db.sqlite3-journal
+
 *.log
 
 # Virtualenv
@@ -26,7 +25,7 @@ venv.bak/
 local_settings.py
 instance/
 .settings/
-media/
+
 
 # === Node/React ===
 node_modules/
