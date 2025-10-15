@@ -5,7 +5,7 @@ __pycache__/
 *$py.class
 *.so
 .Python
-db.sqlite3
+# db.sqlite3
 db.sqlite3-journal
 *.log
 
