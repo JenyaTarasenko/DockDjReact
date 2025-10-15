@@ -10,7 +10,7 @@ function ListViews(){
 
   
     useEffect(() => {
-        fetch('http://localhost:8001/api/projects/')
+        fetch('https://dockdjreact.onrender.com/api/projects/')
           .then(res => res.json())
           .then(data => setProjects(data))
           .catch(err => console.error('Error loading products:', err));

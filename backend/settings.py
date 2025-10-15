@@ -9,8 +9,14 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-82rctupxqe^bxu_b$ai!1k+934pp0ojsp(s0c)ipr8#fz-8_(s'
 
 
-DEBUG = True
-ALLOWED_HOSTS = ["*"]
+# DEBUG = True
+# ALLOWED_HOSTS = ["*"]
+
+DEBUG = False
+ALLOWED_HOSTS = [
+  'dockdjreact.onrender.com'
+]
+
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -127,7 +133,7 @@ INTERNAL_IPS = [
 CORS_ALLOW_ALL_ORIGINS = True
 CORS_ALLOWED_ORIGINS = [
     
-
+    'https://dockdjreact.onrender.com',
     
     'http://localhost:5173',
     'http://127.0.0.1:8001',
